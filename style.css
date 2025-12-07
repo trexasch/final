@@ -8,8 +8,9 @@
 body {
     font-family: "Press Start 2P", monospace;
     background: #fafafa;
-    color: #222;
+    color: #564251;
 }
+
 
 /* ------------------ HEADER ------------------ */
 header {
@@ -27,7 +28,8 @@ header {
 header img.logo {
     position: absolute;
     left: 2rem;
-    height: 60px;
+    width: 200px;
+    height: auto;
 }
 
 header .user-info {
@@ -49,7 +51,7 @@ header h1 {
 
 /* LEFT NAV MENU */
 nav {
-    width: 220px;
+    width: 250px;
 }
 
 nav select {
