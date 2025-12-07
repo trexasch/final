@@ -36,7 +36,8 @@ header .user-info {
     position: absolute;
     right: 2rem;
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 0.9rem; 
+    line-height: 2.5;
 }
 
 header h1 {
