@@ -80,6 +80,7 @@ header h1 {
         height: auto;
         position: absolute;
         left: 1rem;
+        top:0.25rem;
     }
 
     header .user-info {
@@ -90,7 +91,6 @@ header h1 {
 
     header h1 {
         font-size: 1rem !important;
-        margin: 0.25rem 0;
         position: absolute;
         bottom: 0.5rem;
     }
