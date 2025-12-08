@@ -58,6 +58,7 @@ header .user-info {
     text-align: right;
     font-size: 0.9rem; 
     line-height: 2.5;
+    top: 1rem;
 }
 
 header h1 {
