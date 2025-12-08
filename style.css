@@ -71,22 +71,23 @@ header h1 {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     header img.logo {
-        width: 60px; /* shrink logo on mobile */
-        margin-bottom: 0.5rem;
+        width: 60px;
+        margin-bottom: 0.25rem;
     }
 
     header .user-info {
-        text-align: center; /* center text on mobile */
-        margin-bottom: 0.5rem;
+        text-align: center;
+        font-size: 0.6rem;
+        margin-bottom: 0.25rem;
     }
 
     header h1 {
-        font-size: 1.5rem;
-        margin: 0.5rem 0;
+        font-size: 1.2rem;
+        margin: 0.25rem 0;
     }
 }
 
