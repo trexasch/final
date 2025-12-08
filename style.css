@@ -86,7 +86,7 @@ header h1 {
     }
 
     header h1 {
-        font-size: 0.02rem;
+        font-size: 1rem !important;
         margin: 0.25rem 0;
     }
 }
