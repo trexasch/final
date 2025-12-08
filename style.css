@@ -75,7 +75,7 @@ header h1 {
     }
 
     header img.logo {
-        width: 120px; /* shrink logo on mobile */
+        width: 60px; /* shrink logo on mobile */
         margin-bottom: 0.5rem;
     }
 
