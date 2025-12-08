@@ -171,6 +171,11 @@ nav select {
     .resume-pic img {
         max-width: 90%;
     }
+
+    .resume-box{
+        max-width: 95%;
+        padding:0.5rem;
+    }
 }
 
 /* ------------------ PAGE CONTENT ------------------ */
