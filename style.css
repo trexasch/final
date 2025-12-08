@@ -89,7 +89,8 @@ header h1 {
     header h1 {
         font-size: 1rem !important;
         margin: 0.25rem 0;
-        bottom: 0.5rem;
+        position: absolute;
+        bottom: 0.1rem;
     }
 }
 
