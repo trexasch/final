@@ -51,18 +51,26 @@ header h1 {
     padding: 2rem;
 }
 
-/* LEFT NAV MENU */
 nav {
-    width: 250px;
+    width: 470px;
 }
 
 nav select {
     width: 100%;
     padding: 0.8rem;
     font-size: 1rem;
+    font-family: "Press Start 2P", monospace;
+
+    background: #564251;
+    color: #e1eff6;
+
+    border: 3px solid #000;
+    box-shadow: 4px 4px 0 #000;
+
+    appearance: none;
+    cursor: pointer;
 }
 
-/* RIGHT MS-PAINT STYLE BOX */
 .paint-box {
     display: block;
     background: #564251;
@@ -178,4 +186,14 @@ p {
 #frog-pic{
     height:400px;
     width: 500px;
+}
+
+footer {
+    background: #564251;
+    color: #e1eff6;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    border-top: 3px solid #000;
+    box-shadow: 0 -4px 0 #000;
 }
