@@ -13,8 +13,14 @@ body {
     display: flex;
     flex-direction: column;
 
-    
+    background-color: #e1eff6;
+    background-image:
+        linear-gradient(#c4d9e4 1px, transparent 1px),
+        linear-gradient(90deg, #c4d9e4 1px, transparent 1px);
+    background-size: 16px 16px;
+
 }
+
 
 html, body {
     height: 100%;
@@ -34,6 +40,9 @@ header {
     position: relative;
     padding: 0 2rem;
     border: 3px solid #000;
+
+    background-image: 
+        repeating-linear-gradient(45deg, #564251 0 2px, #4b3b47 2px 4px);
 }
 
 header img.logo {
@@ -207,4 +216,11 @@ footer {
     margin-top: 3rem;
     border-top: 3px solid #000;
     box-shadow: 0 -4px 0 #000;
+
+    background-image: 
+        repeating-linear-gradient(45deg, #564251 0 2px, #4b3b47 2px 4px);
+}
+
+#index-text{
+    margin: 30px;
 }
