@@ -68,6 +68,7 @@ header h1 {
 
 @media (max-width: 800px) {
     header {
+        position: relative;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -75,10 +76,10 @@ header h1 {
     }
 
     header img.logo {
-        width: 60px;
-        margin-bottom: 0.25rem;
+        width: 50px;
         height: auto;
-        position: absolute
+        position: absolute;
+        left: 1rem;
     }
 
     header .user-info {
