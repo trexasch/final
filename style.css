@@ -130,6 +130,12 @@ nav select {
     cursor: pointer;
 }
 
+@media (max-width: 800px){
+    nav select {
+        font-size:0.8rem;
+    }
+}
+
 .paint-box {
     display: block;
     background: #564251;
