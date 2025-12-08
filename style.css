@@ -68,34 +68,25 @@ header h1 {
 
 @media (max-width: 800px) {
     header {
-        height: auto; /* let it expand if content wraps */
         flex-direction: column;
         align-items: center;
+        text-align: center;
         padding: 1rem;
     }
 
     header img.logo {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 150px;
-        margin-bottom: 1rem;
-        width: 120px;
+        width: 120px; /* shrink logo on mobile */
         margin-bottom: 0.5rem;
     }
 
     header .user-info {
-        position: relative;
-        top: 0;
-        right: 0;
-        text-align: center;
+        text-align: center; /* center text on mobile */
         margin-bottom: 0.5rem;
     }
 
     header h1 {
         font-size: 1.5rem;
-        text-align: center;
-        flex-basis: 100%
+        margin: 0.5rem 0;
     }
 }
 
