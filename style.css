@@ -148,15 +148,16 @@ nav select {
     max-width: 1000px;
 }
 
-/* New class for resume box */
 .resume-box {
     background: white;
     border: 3px solid #000;
     padding: 1.5rem;
     box-shadow: 4px 4px 0px #000;
-    max-width: 700px;       /* adjust as needed */
-    margin: 2rem auto;      /* centers the box horizontally */
-    text-align: center;     /* centers text inside */
+    max-width: 100%;
+    height:auto;
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
 }
 
 .resume-box {
