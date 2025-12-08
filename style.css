@@ -67,6 +67,19 @@ header h1 {
 }
 
 @media (max-width: 800px) {
+    
+    html, body {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+    header, .main-wrapper, footer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     header {
         position: relative;
         flex-direction: column;
@@ -92,7 +105,7 @@ header h1 {
     header h1 {
         font-size: 1rem !important;
         position: absolute;
-        bottom:1.5rem;
+        bottom:2rem;
     }
 }
 
